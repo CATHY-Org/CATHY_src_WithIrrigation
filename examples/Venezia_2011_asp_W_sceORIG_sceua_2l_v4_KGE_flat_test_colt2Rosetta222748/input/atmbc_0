@@ -1,0 +1,12 @@
+1 0                         HSPATM IETO
+0.0                         TIMEIN
+0                           ATMINP
+1200                        TIMEIN
+1E-5                        ATMINP
+2400                        TIMEIN
+0                           ATMINP
+86400.0                     TIMEIN
+0.0                         ATMINP
+
+
+

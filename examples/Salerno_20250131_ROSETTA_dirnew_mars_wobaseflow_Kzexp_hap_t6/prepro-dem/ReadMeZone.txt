@@ -1,0 +1,1 @@
+zone_0root_DLC from root map, where greenhouse is 2 and all ther classes are 1. this reflects a bit the impervious area of SWMM

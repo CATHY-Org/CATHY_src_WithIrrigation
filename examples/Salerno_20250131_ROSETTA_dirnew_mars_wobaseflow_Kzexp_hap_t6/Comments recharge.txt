@@ -1,0 +1,17 @@
+nninp
+nnoutp è la mia ricarica, la deep percolation è recharge
+
+hgnansfneudet
+
+cathy_main.f
+specifica calcolo separato VNNIN/DELTA e VNNOUT/DELTA in IOUT32
+1197 FORMAT(I7,5(4X,1PE17.9)) cambia format da 4 a 5 colonne
+
+sposta a secondo nodo, altrimenti conflitto con atmbc se nel primo. non piove sulle serre
+
+
+menu
+simbolo omino
+configuration
+network connection
+vede rete
