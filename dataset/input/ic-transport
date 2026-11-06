@@ -1,0 +1,14 @@
+    0      INDC   [ for species 1 ( = molecule 1 = GLP ) ]
+  0.75
+    0      INDC   [ for species 2 ( = molecule 1 = AMPA ) ]
+  0.15
+    0      INDC   [ for species 3 ( = molecule 1 = CH2O ) ]
+  0.9  
+    0      INDC   [ for species 4 ( = molecule 1 = PO43- ) ]
+  0.08
+    0      INDC   [ for species 5 ( = molecule 1 = OTHER_C ) ]
+  0.3 
+    0      INDC   [ for species 6 ( = bacteria group 1 = B_P1 ) ]
+  0.9 
+    0      INDC   [ for species 7 ( = bacteria group 2 = B_P2 ) ]
+  0.04

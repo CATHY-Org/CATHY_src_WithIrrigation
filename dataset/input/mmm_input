@@ -1,0 +1,71 @@
+   1      MMM_FLAG   (= 1 for MMM, = 0 for no MMM)
+   4      MMM_NRC    (# of reactions) ; followed by reaction names (1 per line)
+'GLP_P1R1'
+'GLP_P1R1s'
+'GLP_P2R1s'
+'AMPA_P1R2'
+   5      MMM_NM     (# of molecules) ; followed by molecule names (1 per line)
+'GLP'
+'AMPA'
+'CH2O'
+'PO43-'
+'OTHER_C'
+   2      MMM_NBG    (# of bacteria groups) ; followed by bacteria group names (1 per line) ; if MMM_NBG is 0, the next line must be the MMM_MOB_FLAG input
+'B_P1'
+'B_P2'
+   1
+   1
+   1
+   1
+   1
+   0
+   0      MMM_MOB_FLAG for MMM_NM molecules followed by MMM_NBG bacteria groups ; one value per line
+   1
+   1
+   1
+   0
+   1
+   0
+   1      MMM_UPTAKE_FLAG for MMM_NM molecules followed by MMM_NBG bacteria groups ; one value per line
+  169070.0    111037.0  30000.0     95000.0    30000.0     MMM_CONVERT (MMM_NM values)
+  -1.0        1.0       -1.0        0.0        2.0         MMM_ST_COEFF for NRC = 1 (MMM_NM values)
+   0.0000317                                               MMM_RC_RATE for NRC = 1  (1 value)
+   0.0        0.0        0.0        0.0        0.0         MMM_INHIB for NRC = 1    (MMM_NM values)
+   0.00104    0.0        0.000126   0.0        0.0         MMM_K_M for NRC = 1      (MMM_NM values)
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0         MMM_INTER for NRC = 1    (MMM_NM x MMM_NM values; diagonal = 0.0)
+  -1.0        1.0        0.0        0.0        2.0         MMM_ST_COEFF for NRC = 2 (MMM_NM values)
+   0.0000335                                               MMM_RC_RATE for NRC = 2  (1 value)
+   0.0        0.0        0.0        0.0        0.0         MMM_INHIB for NRC = 2    (MMM_NM values)
+   0.00405    0.0        0.0        0.0        0.0         MMM_K_M for NRC = 2      (MMM_NM values)
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0         MMM_INTER for NRC = 2    (MMM_NM x MMM_NM values; diagonal = 0.0)
+  -1.0        0.0       -1.0        1.0        3.0         MMM_ST_COEFF for NRC = 3 (MMM_NM values)
+   0.0000334                                               MMM_RC_RATE for NRC = 3  (1 value)
+   0.0        0.0        0.0        0.000253   0.0         MMM_INHIB for NRC = 3    (MMM_NM values)
+   0.000109   0.0        0.000212   0.0        0.0         MMM_K_M for NRC = 3      (MMM_NM values)
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0         MMM_INTER for NRC = 3    (MMM_NM x MMM_NM values; diagonal = 0.0)
+   0.0       -1.0       -1.0        1.0        1.0         MMM_ST_COEFF for NRC = 4 (MMM_NM values)
+   0.00000504                                              MMM_RC_RATE for NRC = 4  (1 value)
+   0.0        0.0        0.0        0.000253   0.0         MMM_INHIB for NRC = 4    (MMM_NM values)
+   0.0        0.00208    0.0        0.0        0.0         MMM_K_M for NRC = 4      (MMM_NM values)
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0
+   0.0   0.0   0.0   0.0   0.0         MMM_INTER for NRC = 4    (MMM_NM x MMM_NM values; diagonal = 0.0)
+     24600.0       0.0                       MMM_BIO_Y for NRC = 1    (MMM_NBG values)
+     27800.0       0.0                       MMM_BIO_Y for NRC = 2    (MMM_NBG values)
+         0.0   36400.0                       MMM_BIO_Y for NRC = 3    (MMM_NBG values)
+      4140.0       0.0                       MMM_BIO_Y for NRC = 4    (MMM_NBG values)
+   0.000001    0.000001                      MMM_BMORT (MMM_NBG values)

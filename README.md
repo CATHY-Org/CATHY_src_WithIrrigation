@@ -1,2 +1,3 @@
-# CATHY_src_WithIrrigation
-Include the irrigation file
+# New branch with Irrigation of CATHY
+
+- Src files are fetched locally (from CATHYorg)

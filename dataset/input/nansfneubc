@@ -1,0 +1,5 @@
+   0.0          TIME
+    0     0     NNEU (# of surface node nansf Neu BCs; these get replicated vertically; if NNEU < 0, free drainage BC at bottom, no replicated BCs)    NNEUC (fixed nansf Neu BCs)
+   1.0E+20      TIME
+    0     0     NNEU    NNEUC
+
